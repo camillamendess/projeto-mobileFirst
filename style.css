@@ -1,5 +1,8 @@
+@import url("styles/header.css");
+
 :root {
   --cor-de-fundo: #ebecee;
+  --branco: #fff;
 }
 
 body {
@@ -9,4 +12,10 @@ body {
 .container {
   max-width: 100%;
   padding: 0 15px;
+}
+
+.divisao {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
 }
